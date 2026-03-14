@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="mr">
+
+<head>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>नोटीस बोर्ड – जातेगाव</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Marathi:ital@0;1&family=Mukta:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="notice-board.css" />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Marathi:ital@0;1&family=Mukta:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <header class="custom-navbar sticky-top">
+        <div class="container d-flex align-items-center justify-content-between">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/favicon.png" alt="Logo" onerror="this.src='https://placehold.co/100x100?text=LOGO'">
+                <div class="brand-text">
+                    <h1>ग्रामपंचायत जातेगाव</h1>
+                    <p>ता. फुलंब्री जि. छत्रपती संभाजीनगर</p>
+                </div>
+            </a>
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">मुखपृष्ठ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">ग्रामपंचायतीबद्दल</a></li>
+                        <li class="nav-item"><a class="nav-link" href="citizen-service.html">लोकसेवा</a></li>
+                        <li class="nav-item"><a class="nav-link" href="project.html">विकासकामे</a></li>
+                        <li class="nav-item"><a class="nav-link" href="schemes.html">योजना</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="notice-board.html">नोटीस बोर्ड</a></li>
+                        <li class="nav-item"><a class="nav-link" href="news-blog.html">बातम्या</a></li>
+                        <li class="nav-item"><a class="nav-link" href="photo-gallery.html">फोटो गॅलरी</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">संपर्क</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <div class="container-page">
+        <!-- ── PAGE TITLE / INTRO ── -->
+        <header class="text-center mb-5">
+            <h1 class="fw-bolder" style="color: var(--navy-dark); font-size: 38px;">नोटीस बोर्ड</h1>
+            <p class="text-muted fs-5 fw-medium">
+                सभा व कार्यक्रमाच्या सुचना, जमा खर्च अहवाल, माहीतीचा अधिकार अंतर्गत माहीती
+            </p>
+        </header>
+
+        <!-- ── TABS ── -->
+        <div class="notice-tabs-wrapper">
+            <button class="notice-tab active" data-tab="tab-notice" type="button">नोटीस/ सूचना</button>
+            <button class="notice-tab" data-tab="tab-expense" type="button">जमा खर्च अहवाल</button>
+            <button class="notice-tab" data-tab="tab-rti" type="button">माहीतीचा अधिकार - RTI</button>
+        </div>
+
+        <!-- ── TAB PANELS ── -->
+        <div class="notice-board-panels">
+            
+            <!-- 1. Notices / सूचना Panel -->
+            <section class="notice-panel active" id="tab-notice">
+                <div class="panel-header">
+                    <i class="fa-solid fa-bell"></i>
+                    <h2 class="panel-title">नोटीस/सूचना</h2>
+                </div>
+
+                <!-- Masonry Grid Wrapper -->
+                <div class="notice-masonry-grid">
+                    
+                    <!-- Item 1 -->
+                    <article class="notice-card">
+                        <h3 class="notice-title">
+                            1. विकसित भारत-GRAM G अधिनियम 2025 बाबत माहिती देण्यासाठी दि.26/12/2025 रोजी सकाळी 10:00 वाजता ग्रामसभेचे आयोजन करण्यात आलेले आहे
+                        </h3>
+                        <div class="notice-meta">
+                            <i class="fa-solid fa-window-maximize"></i>
+                            <time datetime="2025-12-26">26/12/2025</time>
+                        </div>
+                        <div class="notice-status">
+                            <span class="notice-status-danger">File not available</span>
+                        </div>
+                    </article>
+
+                    <!-- Item 2 -->
+                    <article class="notice-card">
+                        <h3 class="notice-title">
+                            2. घरकूल कार्यशाळा
+                        </h3>
+                        <div class="notice-meta">
+                            <i class="fa-solid fa-window-maximize"></i>
+                            <time datetime="2025-11-30">30/11/2025</time>
+                        </div>
+                        <div class="notice-status">
+                            <a class="btn-download" href="#">Download</a>
+                        </div>
+                    </article>
+
+                    <!-- Item 3 -->
+                    <article class="notice-card">
+                        <h3 class="notice-title">
+                            3. मासिकसभा
+                        </h3>
+                        <div class="notice-meta">
+                            <i class="fa-solid fa-window-maximize"></i>
+                            <time datetime="2025-11-27">27/11/2025</time>
+                        </div>
+                        <div class="notice-status">
+                            <a class="btn-download" href="#">Download</a>
+                        </div>
+                    </article>
+
+                    <!-- Item 4 -->
+                    <article class="notice-card">
+                        <h3 class="notice-title">
+                            4. सर्वसाधारण ग्रामसभा दि. २८/११/२०२५ रोजी ठेवण्यात आली आहे
+                        </h3>
+                        <div class="notice-meta">
+                            <i class="fa-solid fa-window-maximize"></i>
+                            <time datetime="2025-11-28">28/11/2025</time>
+                        </div>
+                        <div class="notice-status">
+                            <a class="btn-download" href="#">Download</a>
+                        </div>
+                    </article>
+
+                </div>
+            </section>
+
+            <!-- 2. जमा खर्च अहवाल Panel (Empty) -->
+            <section class="notice-panel" id="tab-expense">
+                <div class="panel-header">
+                    <i class="fa-solid fa-file-invoice-dollar"></i>
+                    <h2 class="panel-title">जमा खर्च अहवाल</h2>
+                </div>
+                <div class="empty-state">
+                    सध्या कोणताही अहवाल उपलब्ध नाही.
+                </div>
+            </section>
+
+            <!-- 3. RTI Panel (Empty) -->
+            <section class="notice-panel" id="tab-rti">
+                <div class="panel-header">
+                    <i class="fa-solid fa-scale-balanced"></i>
+                    <h2 class="panel-title">माहीतीचा अधिकार - RTI</h2>
+                </div>
+                <div class="empty-state">
+                    सध्या कोणतीही RTI माहिती उपलब्ध नाही.
+                </div>
+            </section>
+
+        </div>
+    </div><!-- /container-page -->
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Tab switching logic
+        document.querySelectorAll('.notice-tab').forEach(btn => {
+            btn.addEventListener('click', function () {
+                // Update active tab button style
+                document.querySelectorAll('.notice-tab').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+
+                // Get target panel ID
+                const targetTab = this.dataset.tab;
+
+                // Hide all panels
+                document.querySelectorAll('.notice-panel').forEach(sec => {
+                    sec.classList.remove('active');
+                });
+                
+                // Show target panel smoothly
+                const target = document.getElementById(targetTab);
+                if (target) {
+                    // Force reflow for CSS animation reset
+                    void target.offsetWidth;
+                    target.classList.add('active');
+                }
+            });
+        });
+    </script>
+
+    <!-- MAIN FOOTER -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h4>सोशल मीडिया</h4>
+                    <p class="small">ग्रामपंचायत कार्यालयाची अधिकृत समाज माध्यमे</p>
+                    <div class="d-flex gap-3 mt-3">
+                        <a href="#" class="btn btn-outline-light rounded-circle"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="btn btn-outline-light rounded-circle"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="btn btn-outline-light rounded-circle"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h4>महत्त्वाची संकेतस्थळे</h4>
+                    <ul class="footer-links">
+                        <li><a href="https://rdd.maharashtra.gov.in/">ग्रामविकास विभाग</a></li>
+                        <li><a href="https://maharashtra.gov.in/">महाराष्ट्र शासन</a></li>
+                        <li><a href="https://egramswaraj.gov.in/">ई-ग्रामस्वराज</a></li>
+                        <li><a href="https://nrega.dord.gov.in/">MGNREGA</a></li>
+                        <li><a href="https://gr.maharashtra.gov.in/">शासन निर्णय</a></li>
+                        <li><a href="https://majhigrampanchayat.com/">माझी ग्रामपंचायत</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h4>महत्त्वाची पाने</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">मुखपृष्ठ</a></li>
+                        <li><a href="about.html">ग्रामपंचायतीबद्दल</a></li>
+                        <li><a href="citizen-service.html">लोकसेवा</a></li>
+                        <li><a href="project.html">विकासकामे</a></li>
+                        <li><a href="schemes.html">योजना</a></li>
+                        <li><a href="notice-board.html">नोटीस बोर्ड</a></li>
+                        <li><a href="news-blog.html">बातम्या</a></li>
+                        <li><a href="photo-gallery.html">फोटो गॅलरी</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h4>संपर्क माहिती</h4>
+                    <ul class="list-unstyled footer-contact">
+                        <li><i class="fa-solid fa-map-marker-alt"></i><span>ग्रामपंचायत कार्यालय जातेगाव<br>फुलंब्री<br>छत्रपती संभाजीनगर</span></li>
+                        <li><i class="fa-solid fa-phone"></i><span>7875438494</span></li>
+                        <li><i class="fa-solid fa-envelope"></i><span>jategaongrampanchayat2@gmail.com</span></li>
+                        <li><i class="fa-solid fa-clock"></i><span>सोमवार - शुक्रवार<br>सकाळ 09:45 - संध्याकाळ 06:15</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025, हे ग्रामपंचायतीचे अधिकृत संकेतस्थळ आहे. रचना, विकसन आणि देखभाल- <a href="https://gpweb.in/" class="text-warning fw-bold text-decoration-none">MAJHIGRAM TECH</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
